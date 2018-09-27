@@ -3,8 +3,8 @@
 #### Dataset: [Los Angeles Metro Bike share trip Data](https://www.kaggle.com/cityofLA/los-angeles-metro-bike-share-trip-data)
  
 **Python Libraries:**
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Libraries_1.PNG">
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Libraries_2.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Libraries_1.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Libraries_2.PNG">
  
 
 ### Handling Missing Data:
