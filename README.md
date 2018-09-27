@@ -1,4 +1,4 @@
-## KNN and XGBoost Algorithms with Grid search and Feature selection Technque
+## KNN and XGBoost Algorithms with Grid search and Feature selection Technique
 
 #### Dataset: [Los Angeles Metro Bike share trip Data](https://www.kaggle.com/cityofLA/los-angeles-metro-bike-share-trip-data)
  
