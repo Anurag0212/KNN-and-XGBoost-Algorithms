@@ -98,10 +98,11 @@ Step 1 - Initially train your model with all the features and default parameters
            metric_params=None, n_jobs=1, n_neighbors=5, p=2,
            weights='uniform')**
 
-Step 2 - Perform grid search operation with cross-validation technique to find the best hyperparameter
-<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Grid_search.PNG">
+Step 2 - Perform grid search operation with cross-validation technique to find the best hyperparameter  
 
-Step 3 - Re-build your model using the best parameter and calculate the accuracy
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/grid_search.PNG">
+
+Step 3 - Re-build your model using the best parameter and calculate the accuracy  
 **KNeighborsClassifier( n_neighbors=5, weights='uniform')**
 
  
