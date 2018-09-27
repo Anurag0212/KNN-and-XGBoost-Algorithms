@@ -2,7 +2,8 @@
 
 #### Dataset: [Los Angeles Metro Bike share trip Data](https://www.kaggle.com/cityofLA/los-angeles-metro-bike-share-trip-data)
  
-**Python Libraries:**
+**Python Libraries:**  
+
 <img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Libraries_1.PNG">
 <img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Libraries_2.PNG">
  
@@ -11,22 +12,22 @@
 *	Count the Number of Nulls present in the Dataset
 *	Replace Null from Numeric columns using Mean
 *	Replace Null from Categorical columns using mode function
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Missing_data.PNG">
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Replacing_missing_values.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Missing_data.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Replacing_missing_values.PNG">
 
 
 ### Data Distribution:
 *	Plot all the columns based on their data type
 Distribution Plot for Duration:
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/dist_1.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/dist_1.PNG">
  
 Starting Station Latitude and Longitude:
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/dist_2.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/dist_2.PNG">
 
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/dist_3.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/dist_3.PNG">
 
 Categorical Columns:
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/categorical_columns.PNG"> 
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/categorical_columns.PNG"> 
 
 ### Plot Summary:	
 **Bar chart:**
@@ -56,13 +57,13 @@ Categorical Columns:
 
 
 ### Outlier Detection:
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/box_plot.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/box_plot.PNG">
 
 ### Outlier Detection Mathematically: 
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/outlier_math.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/outlier_math.PNG">
 
 ### Correlation Matrix: 
-<img width="751" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/correlation_plot.PNG">
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/correlation_plot.PNG">
 
 
 ### EDA Summary:
@@ -102,7 +103,7 @@ Categorical Columns:
  
 Re-Building the Model with Best Parameter:
  
-SUMMARY:
+**SUMMARY:**  
 *	Divided the data into train [70%] and test [30%] set
 *	Trained my model with the default parameters and with all the columns of training set
 *	Tested the accuracy using the test set
@@ -111,11 +112,12 @@ SUMMARY:
 *	Trained my model again based on the best features and best parameters
 *	Tested the accuracy using the test set
 
-Algorithms	Accuracy - 	Accuracy - after Features selection and grid search
-K-Nearest Neighbors -   	95.36%	- 97.59%
-XG Boost     -   	95.54% -	97.69% 
+|Algorithms	Accuracy |	Accuracy | after Features selection and grid search|
+|:------------------|:---------|:-----------------------|
+|K-Nearest Neighbors |   	95.36%	| 97.59% |
+|XG Boost    |   	95.54% |	97.69%  | 
 
-Conclusion:
+**CONCLUSION:**  
 1. Based on the Accuracy and Classification reports it is clear that, XGBoost algorithm gives better result for this dataset
 2. The accuracy and algoritm table indicates that, Accuracy of both the algorithms has been improved by more than 2% after selecting the best features and the best parameters
 3. In order to achieve the improved accuracy these are the steps that we can follow:
