@@ -9,7 +9,7 @@ Import Python Libraries:
 •	Count the Number of Nulls present in the Dataset
 •	Replace Null from Numeric columns using Mean
 •	Replace Null from Categorical columns using mode function
- 
+ <img width="751" alt="racial based survival" src="https://cloud.githubusercontent.com/assets/25333972/25310311/b078b73c-27af-11e7-92a3-f65e15a0d52f.PNG">
 
 
 ### Data Distribution:
@@ -32,6 +32,22 @@ Distribution Plot:
 •	Data is more dispersed for 'Duration' columns as compared to 'Latitude' and 'Longitude' columns
 •	Values in 'Duration' column is distributed between 0 to 86000
 •	Values in 'Latitude' column is distributed between 30 to 34 while values in longitude column is distributed between -120 to -110
+
+### Columns Statistics:
+
+**Mean and Standard deviation of the numrical columns are as follows**
+
+  
+| Column Name    | Mean Value| Std     |
+|-------------   | --------- | ------- |
+| Duration       |1555.30    |5814.24  |
+| Starting Lat   |33.98      |2.94     |
+| Starting Long  |-118.22    |1.838    |
+| Ending Lat     |32.82      |13.52    |
+| Ending Long    |-118.20    |2.25     |
+
+* Based on mean and standard deviation values we can say that, the Duration columns is more distributed, meaning that the values are more spread out as compared to other Latitude and Longitude columns
+
 
 ### Outlier Detection:
  
