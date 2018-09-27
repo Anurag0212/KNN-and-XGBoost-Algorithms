@@ -18,15 +18,20 @@
 
 ### Data Distribution:
 *	Plot all the columns based on their data type
-Distribution Plot for Duration:
+**Distribution Plot for Duration:**   
+
 <img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/dist_1.PNG">
  
-Starting Station Latitude and Longitude:
+**Starting Station Latitude and Longitude:**  
+
 <img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/dist_2.PNG">
+
+**Ending Station Latitude and Longitude:**  
 
 <img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/dist_3.PNG">
 
-Categorical Columns:
+**Categorical Columns:**  
+
 <img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/categorical_columns.PNG"> 
 
 ### Plot Summary:	
@@ -86,24 +91,21 @@ Categorical Columns:
 *	Accuracy
 *	Confusion Matrix
 
+### KNN model with default parameter:
 
+Step 1 - Initially train your model with all the features and default parameters  
+**KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')**
 
+Step 2 - Perform grid search operation with cross-validation technique to find the best hyperparameter
+<img width="400" alt="racial based survival" src="https://github.com/Anurag0212/KNN-and-XGBoost-Algorithms/blob/master/Images/Grid_search.PNG">
 
+Step 3 - Re-build your model using the best parameter and calculate the accuracy
+**KNeighborsClassifier( n_neighbors=5, weights='uniform')**
 
-### Dimension Reduction and Feature Selection:
  
-
-### Grid Search:
- 
- 
-
-
-### Grid Search Result:
- 
- 
-Re-Building the Model with Best Parameter:
- 
-**SUMMARY:**  
+### SUMMARY: 
 *	Divided the data into train [70%] and test [30%] set
 *	Trained my model with the default parameters and with all the columns of training set
 *	Tested the accuracy using the test set
@@ -117,7 +119,7 @@ Re-Building the Model with Best Parameter:
 |K-Nearest Neighbors |   	95.36%	| 97.59% |
 |XG Boost    |   	95.54% |	97.69%  | 
 
-**CONCLUSION:**  
+### CONCLUSION:
 1. Based on the Accuracy and Classification reports it is clear that, XGBoost algorithm gives better result for this dataset
 2. The accuracy and algoritm table indicates that, Accuracy of both the algorithms has been improved by more than 2% after selecting the best features and the best parameters
 3. In order to achieve the improved accuracy these are the steps that we can follow:
